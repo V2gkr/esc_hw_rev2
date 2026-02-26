@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "46fe65df-d187-4950-a8a8-ae107b3ce6b8")
-		(property "Sheetname" ""
+		(property "Sheetname" "mcu"
 			(at 129.54 31.0384 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5e646745-c812-409a-91bc-9e0e76d79877")
-		(property "Sheetname" ""
+		(property "Sheetname" "power"
 			(at 231.14 31.0384 0)
 			(effects
 				(font
@@ -105,7 +105,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "aa3107a2-b9da-4c01-a929-27d099503571")
-		(property "Sheetname" ""
+		(property "Sheetname" "inverter"
 			(at 78.74 31.0384 0)
 			(effects
 				(font
@@ -147,7 +147,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "cec6183a-fef0-4707-aa96-10e4ec3004df")
-		(property "Sheetname" ""
+		(property "Sheetname" "measurements"
 			(at 180.34 31.0384 0)
 			(effects
 				(font
@@ -189,7 +189,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0")
-		(property "Sheetname" ""
+		(property "Sheetname" "can"
 			(at 27.94 31.0384 0)
 			(effects
 				(font
