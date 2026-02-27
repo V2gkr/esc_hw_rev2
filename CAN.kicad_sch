@@ -1086,27 +1086,49 @@
 		)
 		(uuid "b0e98e52-3845-4a49-b2b8-2b6c0416d565")
 	)
-	(hierarchical_label "RXCAN"
-		(shape passive)
+	(global_label "RXCAN"
+		(shape input)
 		(at 68.58 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "031eab23-2e66-42c2-891a-5826a89ee10c")
+		(uuid "615ef170-b1bf-498d-82d8-19f78bece0be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.4262 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "TXCAN"
-		(shape passive)
+	(global_label "TXCAN"
+		(shape input)
 		(at 68.58 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b36b2d87-25dc-4422-a208-a1330f8c03b6")
+		(uuid "854fccde-3da3-4853-9e9a-46aeeaa20ffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.7286 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
