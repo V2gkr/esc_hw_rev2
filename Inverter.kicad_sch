@@ -671,6 +671,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Miscellaneous Connectors:root_0_mirrored_Header 2_Miscellaneous Connectors.IntLib"
 			(pin_numbers
 				(hide yes)
@@ -1415,420 +1678,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "local_lib:root_1_C_local_lib.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAP0805*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_C_local_lib.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -2.032) (xy -0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.032) (xy 0.508 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "local_lib:root_1_R_local_lib.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "standart european resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*WSL25126L500FEA18-medium*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_R_local_lib.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54) (xy 1.016 2.54) (xy 1.016 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "passives:root_0_1812B105K101CT_passives.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1812 MLCC X7R 1 uF, +/- 10% 100 V T&R MH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC1812(4532)125_N*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_1812B105K101CT_passives.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.508) (xy -2.032 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "passives:root_0_REA1632102M063B_passives.SchLib"
 			(pin_names
 				(hide yes)
@@ -1968,120 +1817,6 @@
 					(at 0 -5.08 90)
 					(length 2.032)
 					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "passives:root_0_R_0603_passives.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "standart 0603 resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*R_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_R_0603_passives.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 1.016) (xy 2.54 1.016) (xy 2.54 -1.016) (xy -2.54 -1.016) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2319,384 +2054,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "passives:root_1_R_0603_passives.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "standart 0603 resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*R_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_R_0603_passives.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54) (xy 1.016 2.54) (xy 1.016 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "passives:root_2_C_0603_passives.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "common 0603 cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*C_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_2_C_0603_passives.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -2.032 0.508) (xy 2.032 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.508) (xy -2.032 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "passives:root_3_R_0603_passives.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "standart 0603 resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*R_0603*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_3_R_0603_passives.SchLib_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 1.016 2.54) (xy 1.016 -2.54) (xy -1.016 -2.54) (xy -1.016 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3086,8 +2443,8 @@
 		(uuid 9e2cac18-c6a7-4476-9280-6cb60ab418ab)
 	)
 	(rectangle
-		(start 285.75 72.39)
-		(end 146.05 165.1)
+		(start 146.05 72.39)
+		(end 285.75 165.1)
 		(stroke
 			(width 0.0254)
 			(type solid)
@@ -3203,12 +2560,6 @@
 		(uuid "6b7fc523-6c17-4a59-b2fe-6e30251d67dd")
 	)
 	(junction
-		(at 259.08 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "761fdef4-b2fb-4fe2-83b5-ea8e709a6259")
-	)
-	(junction
 		(at 259.08 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3231,6 +2582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8af1aa4b-721e-4bb0-92cd-2c6364e9dd1d")
+	)
+	(junction
+		(at 259.08 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c67b392-a342-468c-92f6-870d73a8c114")
 	)
 	(junction
 		(at 214.63 101.6)
@@ -3306,7 +2663,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 114.3) (xy 105.41 114.3)
+			(xy 259.08 137.16) (xy 259.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01891683-e859-48e6-828e-590e05690239")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3336,6 +2703,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 152.4) (xy 55.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078e9035-ede8-4e16-840f-2a9f9f64ebb2")
+	)
+	(wire
+		(pts
 			(xy 172.72 146.05) (xy 172.72 139.7)
 		)
 		(stroke
@@ -3356,17 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 91.44) (xy 130.81 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c11a490-f960-4fca-b7eb-0ee884b9bfa3")
-	)
-	(wire
-		(pts
-			(xy 110.49 139.7) (xy 110.49 143.51)
+			(xy 110.49 139.7) (xy 110.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3376,13 +2743,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 110.49 91.44)
+			(xy 105.41 91.44) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e728cbb-30ce-42d5-887a-806eb6b5861c")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed18fca-febc-4497-933c-b80b79d80615")
 	)
 	(wire
 		(pts
@@ -3436,17 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 99.06) (xy 130.81 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1796136d-4f09-42d0-9e46-25563388d642")
-	)
-	(wire
-		(pts
-			(xy 105.41 129.54) (xy 110.49 129.54)
+			(xy 105.41 129.54) (xy 111.76 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3493,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "20313b60-9182-4efb-a43a-a39eeb7b6e90")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f16e52-a20b-4fa7-b36f-b98c95948e43")
 	)
 	(wire
 		(pts
@@ -3563,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "28b9f5c0-c3df-4692-a11f-a8100cec329e")
+	)
+	(wire
+		(pts
+			(xy 63.5 142.24) (xy 63.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293b959f-a242-4c30-9141-c0cf9f1469ad")
 	)
 	(wire
 		(pts
@@ -3646,16 +3033,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 121.92) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38cfd21d-5db4-4f1a-85d5-0674bccd277c")
-	)
-	(wire
-		(pts
 			(xy 146.05 36.83) (xy 146.05 41.91)
 		)
 		(stroke
@@ -3673,6 +3050,16 @@
 			(type default)
 		)
 		(uuid "3c04474d-9109-4079-9076-a07bfbcd6f85")
+	)
+	(wire
+		(pts
+			(xy 48.26 152.4) (xy 48.26 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c35e5be-ce6b-4d0a-9c6a-5474780a4492")
 	)
 	(wire
 		(pts
@@ -3706,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 139.7) (xy 214.63 138.43)
+			(xy 214.63 137.16) (xy 214.63 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3743,16 +3130,6 @@
 			(type default)
 		)
 		(uuid "50b1a7f8-108e-422e-acf1-071e9ca63e8c")
-	)
-	(wire
-		(pts
-			(xy 48.26 156.21) (xy 48.26 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514f4c50-0c42-4510-b049-653fbb2a9a3a")
 	)
 	(wire
 		(pts
@@ -3846,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 111.76) (xy 48.26 143.51)
+			(xy 48.26 111.76) (xy 48.26 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3883,16 +3260,6 @@
 			(type default)
 		)
 		(uuid "6af1848c-730b-4270-9584-0c56eee59c86")
-	)
-	(wire
-		(pts
-			(xy 120.65 129.54) (xy 130.81 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3e3f17-af95-454f-9a76-12f0c92000cd")
 	)
 	(wire
 		(pts
@@ -3986,6 +3353,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 106.68) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1e2658-a7cf-40b3-b894-1a4efe8855f9")
+	)
+	(wire
+		(pts
 			(xy 259.08 119.38) (xy 259.08 125.73)
 		)
 		(stroke
@@ -3996,7 +3373,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 106.68) (xy 110.49 106.68)
+			(xy 105.41 106.68) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4046,7 +3423,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 128.27) (xy 214.63 125.73)
+			(xy 214.63 125.73) (xy 214.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4106,13 +3483,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 137.16) (xy 55.88 143.51)
+			(xy 119.38 114.3) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a272b429-1eef-4237-b30c-5593f2656013")
+		(uuid "a24eb798-de82-4669-9d16-3a69c53fdbfd")
 	)
 	(wire
 		(pts
@@ -4133,16 +3510,6 @@
 			(type default)
 		)
 		(uuid "a5797f8f-5ee8-4a42-960d-8eb9c257c3b1")
-	)
-	(wire
-		(pts
-			(xy 120.65 106.68) (xy 130.81 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6266d55-480a-4fda-a525-4d6c29de9f37")
 	)
 	(wire
 		(pts
@@ -4196,6 +3563,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4d8731-7354-4f57-b265-4bbede86d3e2")
+	)
+	(wire
+		(pts
 			(xy 210.82 101.6) (xy 214.63 101.6)
 		)
 		(stroke
@@ -4216,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 139.7) (xy 172.72 138.43)
+			(xy 172.72 137.16) (xy 172.72 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +3703,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 110.49 99.06)
+			(xy 105.41 99.06) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4346,17 +3723,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 128.27) (xy 172.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59d8d5e-5ee2-4e91-9301-0bd79ac177a0")
-	)
-	(wire
-		(pts
-			(xy 105.41 121.92) (xy 110.49 121.92)
+			(xy 105.41 121.92) (xy 111.76 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4376,13 +3743,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 156.21) (xy 110.49 153.67)
+			(xy 110.49 152.4) (xy 110.49 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c9f5b289-62db-4035-8a6c-4f1d91f984c9")
+	)
+	(wire
+		(pts
+			(xy 259.08 125.73) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca10520a-d6d5-4ced-a32c-71f038f21686")
 	)
 	(wire
 		(pts
@@ -4393,16 +3770,6 @@
 			(type default)
 		)
 		(uuid "ca159747-3d50-46fa-a5ee-904ad069bfe3")
-	)
-	(wire
-		(pts
-			(xy 130.81 114.3) (xy 120.65 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1d7a5a-ff61-4880-9f12-009aa4c1d4af")
 	)
 	(wire
 		(pts
@@ -4456,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 156.21) (xy 63.5 153.67)
+			(xy 63.5 152.4) (xy 63.5 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4523,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "d89a7aa6-cc36-4cec-b95d-2363233a1e9e")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 55.88 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e54b88-6463-4a91-a8f7-8bb3db809c67")
 	)
 	(wire
 		(pts
@@ -4606,6 +3983,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 125.73) (xy 172.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea454824-e0b8-4925-a336-c856eeb75686")
+	)
+	(wire
+		(pts
 			(xy 125.73 43.18) (xy 125.73 39.37)
 		)
 		(stroke
@@ -4623,16 +4010,6 @@
 			(type default)
 		)
 		(uuid "ed87d86f-8887-4561-a9e1-531020796bdf")
-	)
-	(wire
-		(pts
-			(xy 63.5 142.24) (xy 63.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eddb3aae-4f59-45b3-9665-3f01a5598ae1")
 	)
 	(wire
 		(pts
@@ -4663,6 +4040,16 @@
 			(type default)
 		)
 		(uuid "ef210eac-969a-40a0-b008-0e7f779e414c")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 130.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe5c0ad-8b3c-42a0-baba-6a58bdea27aa")
 	)
 	(wire
 		(pts
@@ -4703,26 +4090,6 @@
 			(type default)
 		)
 		(uuid "f8c5c527-ec85-4f90-8acb-04ab6f1d7772")
-	)
-	(wire
-		(pts
-			(xy 55.88 156.21) (xy 55.88 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdaf67f3-1e87-4444-b170-51ecf8910757")
-	)
-	(wire
-		(pts
-			(xy 259.08 125.73) (xy 259.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5c514e-36a5-4ecf-83c9-6155adbfd6d5")
 	)
 	(wire
 		(pts
@@ -5034,6 +4401,28 @@
 		)
 		(uuid "ea1671cc-7a62-4b41-a88c-2a5c3745e11a")
 	)
+	(global_label "SDO"
+		(shape input)
+		(at 35.56 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8f501df-e7c1-4727-8e48-1f267b6275d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.7648 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SDI"
 		(shape passive)
 		(at 35.56 134.62 180)
@@ -5188,17 +4577,6 @@
 		)
 		(uuid "c3be67ca-e681-4ec4-88fe-d0a2ff179c9c")
 	)
-	(hierarchical_label "SDO"
-		(shape passive)
-		(at 35.56 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc7ba9d5-ad54-49a8-a766-6b11d1827902")
-	)
 	(hierarchical_label "VSHUNT_A+"
 		(shape passive)
 		(at 162.56 125.73 180)
@@ -5233,7 +4611,7 @@
 		(uuid "fdfa4bf3-b41b-4493-a5aa-522094fa76b0")
 	)
 	(symbol
-		(lib_id "local_lib:root_0_C_local_lib.SchLib")
+		(lib_id "Device:C")
 		(at 48.26 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5259,7 +4637,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 49.2252 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -5268,16 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -5328,7 +4706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X80-33N"
+		(property "Footprint" "power:QFN50P500X500X80-33N"
 			(at 161.29 121.92 0)
 			(effects
 				(font
@@ -5754,7 +5132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 176.276 112.776 0)
 			(effects
 				(font
@@ -5763,7 +5141,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 167.64 107.95 0)
 			(effects
 				(font
@@ -6068,7 +5446,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 176.276 94.996 0)
 			(effects
 				(font
@@ -6077,7 +5455,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 167.64 90.17 0)
 			(effects
 				(font
@@ -6259,7 +5637,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -6368,7 +5746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local_lib:root_1_R_local_lib.SchLib")
+		(lib_id "Device:R")
 		(at 172.72 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6394,7 +5772,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "WSL25126L500FEA18-medium"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 170.942 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -6403,16 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart european resistor"
+		(property "Description" "Resistor"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -6494,7 +5872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 218.186 112.776 0)
 			(effects
 				(font
@@ -6503,7 +5881,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 209.55 107.95 0)
 			(effects
 				(font
@@ -6685,7 +6063,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 166.37 139.7 0)
 			(effects
 				(font
@@ -6820,7 +6198,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -7012,7 +6390,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 262.636 112.776 0)
 			(effects
 				(font
@@ -7021,7 +6399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 254 107.95 0)
 			(effects
 				(font
@@ -7203,7 +6581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 251.46 125.73 0)
 			(effects
 				(font
@@ -7246,8 +6624,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 114.3 0)
+		(lib_id "Device:R")
+		(at 115.57 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7255,7 +6633,7 @@
 		(dnp no)
 		(uuid "575c8564-762b-47aa-9a3d-3235decf3513")
 		(property "Reference" "R107"
-			(at 107.95 114.3 0)
+			(at 112.522 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +6642,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 114.3 0)
+			(at 122.174 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +6650,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -7281,16 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -7300,7 +6678,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 110.49 0)
+			(at 111.76 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +6688,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 110.49 0)
+			(at 111.76 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +6713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_1812B105K101CT_passives.SchLib")
+		(lib_id "Device:C")
 		(at 234.95 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7362,7 +6740,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1812(4532)125_N"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+			(at 235.9152 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 234.95 91.44 0)
 			(effects
 				(font
@@ -7371,16 +6758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 234.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1812 MLCC X7R 1 uF, +/- 10% 100 V T&R MH"
+		(property "Description" "Unpolarized capacitor"
 			(at 234.95 91.44 0)
 			(effects
 				(font
@@ -7492,7 +6870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_1812B105K101CT_passives.SchLib")
+		(lib_id "Device:C")
 		(at 189.23 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7519,7 +6897,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1812(4532)125_N"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+			(at 190.1952 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -7528,16 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 189.23 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1812 MLCC X7R 1 uF, +/- 10% 100 V T&R MH"
+		(property "Description" "Unpolarized capacitor"
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -7582,8 +6960,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 99.06 0)
+		(lib_id "Device:R")
+		(at 115.57 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7591,7 +6969,7 @@
 		(dnp no)
 		(uuid "64bd7a71-15fa-49b5-aed7-781da22aa2bb")
 		(property "Reference" "R105"
-			(at 107.95 99.06 0)
+			(at 112.776 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +6978,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 99.06 0)
+			(at 121.92 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +6986,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -7617,16 +7004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 99.06 0)
 			(effects
 				(font
@@ -7636,7 +7014,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 95.25 0)
+			(at 111.76 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7646,7 +7024,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 95.25 0)
+			(at 111.76 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 208.28 125.73 0)
 			(effects
 				(font
@@ -7806,8 +7184,8 @@
 		)
 	)
 	(symbol
-		(lib_id "local_lib:root_1_C_local_lib.SchLib")
-		(at 60.96 93.98 0)
+		(lib_id "Device:C")
+		(at 60.96 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7815,7 +7193,7 @@
 		(dnp no)
 		(uuid "7404a45a-c592-4247-aff1-87cbaaec3248")
 		(property "Reference" "C107"
-			(at 59.436 91.694 0)
+			(at 58.928 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7202,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 59.436 98.806 0)
+			(at 66.04 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +7210,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 64.77 93.0148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -7841,16 +7228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -7958,7 +7336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 218.186 94.996 0)
 			(effects
 				(font
@@ -7967,7 +7345,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 209.55 90.17 0)
 			(effects
 				(font
@@ -8123,7 +7501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_2_C_0603_passives.SchLib")
+		(lib_id "Device:C")
 		(at 34.29 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8149,7 +7527,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "C_0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 35.2552 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 34.29 92.71 0)
 			(effects
 				(font
@@ -8158,16 +7545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "common 0603 cap"
+		(property "Description" "Unpolarized capacitor"
 			(at 34.29 92.71 0)
 			(effects
 				(font
@@ -8192,8 +7570,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 129.54 0)
+		(lib_id "Device:R")
+		(at 115.57 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8201,7 +7579,7 @@
 		(dnp no)
 		(uuid "7c0d9b30-336f-4618-859e-ec319e207ba3")
 		(property "Reference" "R110"
-			(at 107.95 129.54 0)
+			(at 113.03 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +7588,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 129.54 0)
+			(at 121.92 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +7596,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 129.54 0)
 			(effects
 				(font
@@ -8227,16 +7614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 129.54 0)
 			(effects
 				(font
@@ -8246,7 +7624,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 125.73 0)
+			(at 111.76 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +7634,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 125.73 0)
+			(at 111.76 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,8 +7659,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 106.68 0)
+		(lib_id "Device:R")
+		(at 115.57 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8290,7 +7668,7 @@
 		(dnp no)
 		(uuid "800a8b4a-a6e4-4c62-9da5-3055ef2c4c62")
 		(property "Reference" "R106"
-			(at 107.95 106.68 0)
+			(at 112.776 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +7677,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 106.68 0)
+			(at 121.92 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +7685,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 106.68 0)
 			(effects
 				(font
@@ -8316,16 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 106.68 0)
 			(effects
 				(font
@@ -8335,7 +7713,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 102.87 0)
+			(at 111.76 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +7723,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 102.87 0)
+			(at 111.76 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +7748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_3_R_0603_passives.SchLib")
+		(lib_id "Device:R")
 		(at 110.49 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8396,7 +7774,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.712 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 110.49 148.59 0)
 			(effects
 				(font
@@ -8405,16 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 110.49 148.59 0)
 			(effects
 				(font
@@ -8485,7 +7863,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "CAP0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -8620,7 +7998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -8663,8 +8041,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 121.92 0)
+		(lib_id "Device:R")
+		(at 115.57 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8672,7 +8050,7 @@
 		(dnp no)
 		(uuid "911d2939-f5d6-4305-a8a3-0744989971e3")
 		(property "Reference" "R109"
-			(at 107.95 121.92 0)
+			(at 112.776 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8059,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 121.92 0)
+			(at 122.174 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8067,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -8698,16 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 121.92 0)
 			(effects
 				(font
@@ -8717,7 +8095,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 118.11 0)
+			(at 111.76 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8105,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 118.11 0)
+			(at 111.76 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8156,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 251.46 101.6 0)
 			(effects
 				(font
@@ -8821,7 +8199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_1_R_0603_passives.SchLib")
+		(lib_id "Device:R")
 		(at 55.88 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8847,7 +8225,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 54.102 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 55.88 148.59 0)
 			(effects
 				(font
@@ -8856,16 +8243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 55.88 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 55.88 148.59 0)
 			(effects
 				(font
@@ -8976,7 +8354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local_lib:root_1_R_local_lib.SchLib")
+		(lib_id "Device:R")
 		(at 259.08 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9002,7 +8380,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "WSL25126L500FEA18-medium"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 257.302 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 259.08 133.35 0)
 			(effects
 				(font
@@ -9011,16 +8398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 259.08 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart european resistor"
+		(property "Description" "Resistor"
 			(at 259.08 133.35 0)
 			(effects
 				(font
@@ -9065,7 +8443,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_1_R_0603_passives.SchLib")
+		(lib_id "Device:R")
 		(at 48.26 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9091,7 +8469,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 46.482 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -9100,16 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 48.26 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 48.26 148.59 0)
 			(effects
 				(font
@@ -9154,7 +8532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_1_R_0603_passives.SchLib")
+		(lib_id "Device:R")
 		(at 63.5 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9180,7 +8558,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 61.722 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 63.5 148.59 0)
 			(effects
 				(font
@@ -9189,16 +8576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 63.5 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 63.5 148.59 0)
 			(effects
 				(font
@@ -9335,7 +8713,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AMASS_XT60-M"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 119.38 34.29 0)
 			(effects
 				(font
@@ -9434,7 +8812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -9569,7 +8947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCAP_7_5mm"
+		(property "Footprint" "power:PCAP_7_5mm"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -9972,7 +9350,7 @@
 		)
 	)
 	(symbol
-		(lib_id "local_lib:root_1_R_local_lib.SchLib")
+		(lib_id "Device:R")
 		(at 214.63 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9998,7 +9376,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "WSL25126L500FEA18-medium"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 212.852 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 214.63 133.35 0)
 			(effects
 				(font
@@ -10007,16 +9394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 214.63 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart european resistor"
+		(property "Description" "Resistor"
 			(at 214.63 133.35 0)
 			(effects
 				(font
@@ -10078,7 +9456,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TK35A08N1"
 			(at 262.636 94.996 0)
 			(effects
 				(font
@@ -10087,7 +9465,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TO-220AB"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 254 90.17 0)
 			(effects
 				(font
@@ -10269,7 +9647,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "FUSE_SS-5F_COB"
+		(property "Footprint" "power:FUSE_SS-5F_COB"
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -10382,8 +9760,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_R_0603_passives.SchLib")
-		(at 115.57 91.44 0)
+		(lib_id "Device:R")
+		(at 115.57 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10391,7 +9769,7 @@
 		(dnp no)
 		(uuid "d8ea8fe3-fc69-4b7e-8940-12a8d340fd96")
 		(property "Reference" "R101"
-			(at 107.95 91.44 0)
+			(at 112.776 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +9778,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 118.11 91.44 0)
+			(at 121.92 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10408,7 +9786,16 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 115.57 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 115.57 91.44 0)
 			(effects
 				(font
@@ -10417,16 +9804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "standart 0603 resistor"
+		(property "Description" "Resistor"
 			(at 115.57 91.44 0)
 			(effects
 				(font
@@ -10436,7 +9814,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 109.982 87.63 0)
+			(at 111.76 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +9824,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
-			(at 109.982 87.63 0)
+			(at 111.76 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10629,7 +10007,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "net_tie"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -10738,7 +10116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:root_0_1812B105K101CT_passives.SchLib")
+		(lib_id "Device:C")
 		(at 276.86 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10765,7 +10143,16 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1812(4532)125_N"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
+			(at 277.8252 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
 			(at 276.86 91.44 0)
 			(effects
 				(font
@@ -10774,16 +10161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 276.86 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1812 MLCC X7R 1 uF, +/- 10% 100 V T&R MH"
+		(property "Description" "Unpolarized capacitor"
 			(at 276.86 91.44 0)
 			(effects
 				(font
@@ -10854,7 +10232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SMC"
+		(property "Footprint" "Diode_SMD:D_SMC-RM10_Universal_Handsoldering"
 			(at 158.75 46.99 0)
 			(effects
 				(font
