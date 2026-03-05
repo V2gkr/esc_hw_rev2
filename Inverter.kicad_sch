@@ -934,6 +934,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Miscellaneous Connectors:root_0_mirrored_Header 2_Miscellaneous Connectors.IntLib"
 			(pin_numbers
 				(hide yes)
@@ -3313,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 261.62 101.6)
+			(xy 259.08 101.6) (xy 266.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3900,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 101.6) (xy 214.63 101.6)
+			(xy 222.25 101.6) (xy 214.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3823,7 +3930,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 101.6) (xy 175.26 101.6)
+			(xy 172.72 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6100,7 +6207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 166.37 139.7 0)
 			(effects
 				(font
@@ -6235,7 +6342,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -6618,7 +6725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 251.46 125.73 0)
 			(effects
 				(font
@@ -7086,6 +7193,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 182.88 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69636c43-4390-4f60-af11-d303b6ed90b4")
+		(property "Reference" "H2"
+			(at 186.69 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "phase connector"
+			(at 186.69 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "power:phase_cable_soldering_hole"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 182.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b203dd31-acf3-4ed8-8588-a3bf37afb517")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/aa3107a2-b9da-4c01-a929-27d099503571"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "passives:root_0_net_tie_passives.SchLib")
 		(at 208.28 125.73 0)
 		(unit 1)
@@ -7112,7 +7286,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 208.28 125.73 0)
 			(effects
 				(font
@@ -8035,7 +8209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 166.37 125.73 0)
 			(effects
 				(font
@@ -8849,7 +9023,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.3mm"
 			(at 208.28 139.7 0)
 			(effects
 				(font
@@ -9652,6 +9826,140 @@
 			(project ""
 				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/aa3107a2-b9da-4c01-a929-27d099503571"
 					(reference "Q103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 224.79 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29fe4bb-5f52-489f-b8e7-5fd74f0b0664")
+		(property "Reference" "H1"
+			(at 228.6 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "phase connector"
+			(at 228.6 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "power:phase_cable_soldering_hole"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "016402ae-d1b8-4077-a8ac-86b2d5facaf5")
+		)
+		(instances
+			(project ""
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/aa3107a2-b9da-4c01-a929-27d099503571"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 269.24 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d40c19-b357-41a7-9b00-ca4f5578986b")
+		(property "Reference" "H3"
+			(at 273.05 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "phase connector"
+			(at 273.05 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "power:phase_cable_soldering_hole"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd80a533-26e0-453e-a710-388332ec875e")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/aa3107a2-b9da-4c01-a929-27d099503571"
+					(reference "H3")
 					(unit 1)
 				)
 			)
