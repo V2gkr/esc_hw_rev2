@@ -9189,7 +9189,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1"
 			(at 135.89 26.67 90)
 			(effects
 				(font

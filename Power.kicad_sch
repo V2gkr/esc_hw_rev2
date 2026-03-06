@@ -1543,6 +1543,10 @@
 		(uuid "f071b237-13e8-4d23-8f22-ca625b6bcdc2")
 	)
 	(no_connect
+		(at 107.95 80.01)
+		(uuid "18503a21-913c-48af-b3d2-a095326839e0")
+	)
+	(no_connect
 		(at 255.27 82.55)
 		(uuid "7a2f58c7-2725-401c-9846-34f01ad77f9d")
 	)
@@ -1805,6 +1809,16 @@
 			(type default)
 		)
 		(uuid "943be771-a813-4aeb-a644-d32624635e01")
+	)
+	(wire
+		(pts
+			(xy 52.07 72.39) (xy 54.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992a42da-d3ec-45f2-bcd4-61c0671923aa")
 	)
 	(wire
 		(pts
@@ -4218,16 +4232,15 @@
 	)
 	(symbol
 		(lib_id "power:+36V")
-		(at 54.61 72.39 0)
+		(at 52.07 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c98daa96-118a-4cc3-9b9a-4bacc5f3d505")
 		(property "Reference" "#PWR057"
-			(at 54.61 76.2 0)
+			(at 52.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4249,7 @@
 			)
 		)
 		(property "Value" "+36V"
-			(at 54.61 67.31 0)
+			(at 48.006 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+36V\""
-			(at 54.61 72.39 0)
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
