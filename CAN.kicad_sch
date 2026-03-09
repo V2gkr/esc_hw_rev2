@@ -846,10 +846,6 @@
 		(color 0 0 0 0)
 		(uuid "8ad576fd-efd2-40c9-83a3-92c752174b72")
 	)
-	(no_connect
-		(at 78.74 88.9)
-		(uuid "d70d80d8-b66e-4ca4-98c5-f5882e0083cd")
-	)
 	(wire
 		(pts
 			(xy 68.58 93.98) (xy 78.74 93.98)
@@ -869,6 +865,16 @@
 			(type default)
 		)
 		(uuid "10573e57-6175-486d-895d-c730f07adf66")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ccb802-7949-4039-ad92-16c64ccf1181")
 	)
 	(wire
 		(pts
@@ -1002,6 +1008,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 99.06) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b55814-56f3-45c7-a348-865d5682f75b")
+	)
+	(wire
+		(pts
 			(xy 33.02 81.28) (xy 33.02 83.82)
 		)
 		(stroke
@@ -1049,6 +1065,16 @@
 			(type default)
 		)
 		(uuid "e538f7be-35f2-43c2-a09e-ac9ea4cc73b0")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea889454-dab5-4096-ab73-ce1f1ff06d1e")
 	)
 	(label "CAN_N"
 		(at 154.94 96.52 0)
@@ -1195,6 +1221,72 @@
 			(project ""
 				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dc5039f-50ee-4a48-92c1-b9191abfbe09")
+		(property "Reference" "#PWR079"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "437fed36-c139-4a36-a6b8-4f63c2ec1775")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1551,6 +1643,96 @@
 			(project "BLDC_Test"
 				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955f7398-8b96-4fe1-95c7-23dbc39e9ec8")
+		(property "Reference" "R402"
+			(at 49.53 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k8"
+			(at 49.53 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 52.578 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 52.07 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "71-WSL25126L500FEA18"
+			(at 52.07 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c97db0-3f41-4148-a445-7e648d25a29b")
+		)
+		(pin "2"
+			(uuid "ad6f4eca-4a0a-43dd-882c-b73b02d05948")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0"
+					(reference "R402")
 					(unit 1)
 				)
 			)

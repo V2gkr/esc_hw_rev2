@@ -176,520 +176,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Altium Content Vault:root_0_7d37667f5012bb31280c8009ddd0b1c_Altium Content Vault"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CERAMIC RES 8.0000MHZ 33PF SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*FP-CSTNE8M00GH5C000R0-MFG*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_0_7d37667f5012bb31280c8009ddd0b1c_Altium Content Vault_1_0"
-				(polyline
-					(pts
-						(xy 5.08 2.032) (xy 5.08 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 6.35 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 8.89 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 8.89 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 6.35 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 2.032) (xy 10.16 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.922 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 5.08)
-					(name "Input"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 -7.62 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "Output"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Altium Content Vault:root_1_1adf0dd01260c80cf25a44bfd6b99ba_Altium Content Vault"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TACT 4.5 X 4.5, 3.8 MM H, 1.8N,"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*FP-PTS647SM38SMTR2LFS-MFG*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "root_1_1adf0dd01260c80cf25a44bfd6b99ba_Altium Content Vault_1_0"
-				(polyline
-					(pts
-						(xy 2.54 10.16) (xy 4.064 10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 10.16) (xy 5.08 10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.826 3.81) (xy 3.302 6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 10.16) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 6.858)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 3.302)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 10.16) (xy 5.08 10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 10.16) (xy 6.096 10.16)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 6.096 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 10.16 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -983,6 +469,271 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2737,6 +2488,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_Dual_x2"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Dual_x2"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, separate symbols, four pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "disc_sem:root_3_LED_GREEN_disc_sem.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -3601,12 +3539,6 @@
 		(uuid "14111596-1eca-4778-8f9c-8f8c5abc914f")
 	)
 	(junction
-		(at 257.81 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "302f09ae-4f3f-4d7d-9ade-247195e5fe2a")
-	)
-	(junction
 		(at 161.29 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3617,12 +3549,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5191df7e-108d-41de-a6a7-daf62db21e2d")
-	)
-	(junction
-		(at 257.81 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e71fee6-5a1b-4d13-ad84-954bef533973")
 	)
 	(junction
 		(at 69.85 80.01)
@@ -3814,16 +3740,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 186.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "133d4003-5686-4053-86e0-9956540bb5dc")
-	)
-	(wire
-		(pts
 			(xy 257.81 95.25) (xy 257.81 97.79)
 		)
 		(stroke
@@ -3831,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "151b4188-63c2-428b-a1a2-11a72bcfac98")
-	)
-	(wire
-		(pts
-			(xy 260.35 85.09) (xy 257.81 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1873de5f-b09b-4dc8-9d07-deb63dee1869")
 	)
 	(wire
 		(pts
@@ -3974,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 90.17) (xy 166.37 90.17)
+			(xy 161.29 90.17) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4051,16 +3957,6 @@
 			(type default)
 		)
 		(uuid "36a5e487-4954-412d-a53c-69a9b62a152a")
-	)
-	(wire
-		(pts
-			(xy 270.51 95.25) (xy 270.51 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38181e7e-4f36-483e-9d5c-ba021642ae2c")
 	)
 	(wire
 		(pts
@@ -4144,26 +4040,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 82.55) (xy 257.81 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4611679e-eb90-4be5-be42-a49e9d8b5134")
-	)
-	(wire
-		(pts
-			(xy 260.35 95.25) (xy 257.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a33f0b-0fa0-4214-976e-6bd7324c4ffc")
-	)
-	(wire
-		(pts
 			(xy 161.29 90.17) (xy 161.29 85.09)
 		)
 		(stroke
@@ -4241,16 +4117,6 @@
 			(type default)
 		)
 		(uuid "5ea58ac3-90ea-4dbb-ae70-7b3992da954c")
-	)
-	(wire
-		(pts
-			(xy 270.51 85.09) (xy 270.51 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f69fd5e-416d-4dc6-97e2-d703aab71fc4")
 	)
 	(wire
 		(pts
@@ -4411,16 +4277,6 @@
 			(type default)
 		)
 		(uuid "81fd19a5-de34-4ed9-88eb-435a94f4c0a1")
-	)
-	(wire
-		(pts
-			(xy 270.51 97.79) (xy 257.81 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82023488-f54a-4acc-9911-a5475b964fb1")
 	)
 	(wire
 		(pts
@@ -4834,6 +4690,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 90.17) (xy 186.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd3f3bd-5929-4ae1-82b7-ef40d49b117b")
+	)
+	(wire
+		(pts
 			(xy 30.48 80.01) (xy 69.85 80.01)
 		)
 		(stroke
@@ -4974,7 +4840,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 173.99 97.79)
+			(xy 173.99 95.25) (xy 173.99 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8182,8 +8048,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Altium Content Vault:root_1_1adf0dd01260c80cf25a44bfd6b99ba_Altium Content Vault")
-		(at 260.35 95.25 0)
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 257.81 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8191,7 +8057,7 @@
 		(dnp no)
 		(uuid "66b2418a-3ee6-43af-b402-da8195b3f810")
 		(property "Reference" "SW201"
-			(at 262.89 80.01 0)
+			(at 262.636 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,16 +8066,17 @@
 			)
 		)
 		(property "Value" "PTS647SM38SMTR2LFS"
-			(at 256.54 82.55 0)
+			(at 258.572 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC9xxJ"
-			(at 260.35 95.25 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,8 +8084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 260.35 95.25 0)
+		(property "Datasheet" "~"
+			(at 262.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,8 +8093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TACT 4.5 X 4.5, 3.8 MM H, 1.8N,"
-			(at 260.35 95.25 0)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 257.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8103,7 @@
 			)
 		)
 		(property "OPERATING FORCE" "180gf"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8113,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "70°C"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8123,7 @@
 			)
 		)
 		(property "THROW CONFIGURATION" "SPST"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8133,7 @@
 			)
 		)
 		(property "PACKAGING" "Cut Tape"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,7 +8143,7 @@
 			)
 		)
 		(property "MECHANICAL LIFE" "100000Cycles"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8153,7 @@
 			)
 		)
 		(property "RATINGS" "IP40"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8163,7 @@
 			)
 		)
 		(property "SWITCH TRAVEL" "0.25mm"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,7 +8173,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-20°C"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8183,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8193,7 @@
 			)
 		)
 		(property "SWITCH FUNCTION" "Off-Mom"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +8203,7 @@
 			)
 		)
 		(property "TERMINATION" "Gull Wing"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8213,7 @@
 			)
 		)
 		(property "ACTUATOR TYPE" "Standard"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8223,7 @@
 			)
 		)
 		(property "ILLUMINATION TYPE" "Non-Illuminated"
-			(at 259.842 84.328 0)
+			(at 268.732 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,8 +10447,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Altium Content Vault:root_0_7d37667f5012bb31280c8009ddd0b1c_Altium Content Vault")
-		(at 181.61 90.17 0)
+		(lib_id "Device:Crystal_GND24")
+		(at 173.99 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10590,7 +10457,7 @@
 		(dnp no)
 		(uuid "d2cc49c3-3aa8-47c3-8e0d-4c111c8c46e6")
 		(property "Reference" "Y201"
-			(at 177.546 87.376 0)
+			(at 169.926 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,8 +10465,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CSTNE8M00GH5C000R0"
-			(at 185.42 81.28 0)
+		(property "Value" "E5X080182Y03"
+			(at 177.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,8 +10474,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Crystal:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering"
-			(at 181.61 90.17 0)
+		(property "Footprint" "Crystal:Crystal_SMD_WE_CFPX-104-4Pin_5.0x3.2mm"
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,8 +10483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 181.61 90.17 0)
+		(property "Datasheet" "~"
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10625,8 +10492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CERAMIC RES 8.0000MHZ 33PF SMD"
-			(at 181.61 90.17 0)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10502,7 @@
 			)
 		)
 		(property "MOUNT" "Surface Mount"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10512,7 @@
 			)
 		)
 		(property "MIN OPERATING TEMPERATURE" "-40°C"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10655,7 +10522,7 @@
 			)
 		)
 		(property "MAX OPERATING TEMPERATURE" "125°C"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10532,7 @@
 			)
 		)
 		(property "RESISTOR TYPE" "Ceramic"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +10542,7 @@
 			)
 		)
 		(property "FREQUENCY STABILITY" "0.13%"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +10552,7 @@
 			)
 		)
 		(property "CAPACITANCE" "33pF"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10562,7 @@
 			)
 		)
 		(property "PACKAGING" "Tape and Reel"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10572,7 @@
 			)
 		)
 		(property "FREQUENCY" "8MHz"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10582,7 @@
 			)
 		)
 		(property "CASE/PACKAGE" "SMD/SMT"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10592,7 @@
 			)
 		)
 		(property "FREQUENCY TOLERANCE" "0.07%"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10602,7 @@
 			)
 		)
 		(property "IMPEDANCE" "40R"
-			(at 182.118 87.376 0)
+			(at 174.498 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,6 +10619,9 @@
 		)
 		(pin "2"
 			(uuid "78c26e3b-1ec2-401a-bf02-72b61a8ce799")
+		)
+		(pin "4"
+			(uuid "7846adea-7fe4-479f-a572-f27b4be2d754")
 		)
 		(instances
 			(project "BLDC_Test"
