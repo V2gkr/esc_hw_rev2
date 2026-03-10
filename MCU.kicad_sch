@@ -7134,6 +7134,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/TAJP106M010RNJ?qs=sGAEpiMZZMsh%252B1woXyUXjxXoid2YjxatZiKpIxp4qYQ%3D"
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e770762-978a-4107-a6e1-00377b2ec012")
 		)
@@ -7434,6 +7443,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/STMicroelectronics/STM32G431CBT6?qs=T3oQrply3y8OocyGDXq5wg%3D%3D"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -10052,6 +10070,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/TAJP106M010RNJ?qs=sGAEpiMZZMsh%252B1woXyUXjxXoid2YjxatZiKpIxp4qYQ%3D"
+			(at 166.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2175527-8ede-4130-b208-b1435348a805")
 		)
@@ -10608,6 +10635,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/E5X080182Y03?qs=%252BXxaIXUDbq1EGUEsDMmpdA%3D%3D"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

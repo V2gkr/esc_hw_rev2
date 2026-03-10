@@ -4786,7 +4786,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "1u"
 			(at 50.546 88.646 0)
 			(effects
 				(font
@@ -4814,6 +4814,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/KEMET/C1210C105K5NACTU?qs=w3%252Bcv6FlocqAO7WrPZaLfw%3D%3D"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -6199,7 +6208,7 @@
 		(at 166.37 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "31c61d68-c143-44fd-9e12-79a27738c387")
@@ -6334,7 +6343,7 @@
 		(at 251.46 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0d8f28-6cbd-4db8-92b5-110151310342")
@@ -6717,7 +6726,7 @@
 		(at 251.46 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "53bce82d-dcb3-4077-9e15-e6e40cd70e3d")
@@ -7279,7 +7288,7 @@
 		(at 208.28 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6caa8172-ec5f-430e-bce0-03501dee64ce")
@@ -8202,7 +8211,7 @@
 		(at 166.37 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f88f1ab-e58d-4f7c-89c3-ac8bdf934319")
@@ -8983,7 +8992,7 @@
 		(at 208.28 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc8d1fb4-f87c-4f43-8b94-f50bfa0e31ea")
@@ -9524,6 +9533,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/REA1632102M063B?qs=Y0Uzf4wQF3lUlm3Em9lDXQ%3D%3D"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10129,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/SS-5F-10A-AP?qs=jGANiKWBgcjo1gn85NhgSw%3D%3D"
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/SS-5F-10A-AP?qs=jGANiKWBgcjo1gn85NhgSw%3D%3D"
 			(at 127.762 43.18 0)
 			(effects
 				(font
@@ -10509,7 +10527,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "https://www.mouser.pl/ProductDetail/Walsin/1812B105K101CT?qs=fIkAfuXiAQKE%2FOYgQEMpqQ%3D%3D"
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Walsin/1812B105K101CT?qs=fIkAfuXiAQKE%2FOYgQEMpqQ%3D%3D"
 			(at 274.574 98.298 0)
 			(effects
 				(font
@@ -10875,6 +10893,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Littelfuse/SMCJ36CA?qs=zHiv0nsVGmqDVrcTX3XJRw%3D%3D"
+			(at 158.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

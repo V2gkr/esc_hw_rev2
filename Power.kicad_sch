@@ -1519,6 +1519,12 @@
 		(uuid "6799ea09-d612-48bf-b405-b39667a755ed")
 	)
 	(junction
+		(at 270.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0210a0-7f46-4c6b-a39e-22a77ca2b60b")
+	)
+	(junction
 		(at 157.48 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1529,6 +1535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d83a72c0-7517-43e7-ad95-523f5a05e48c")
+	)
+	(junction
+		(at 218.44 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d91df8ee-4f42-4bc4-983f-5a9e4fe38ab9")
 	)
 	(junction
 		(at 198.12 69.85)
@@ -1582,6 +1594,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09831d32-da9b-4f8f-adb8-cb3d5039c7fa")
+	)
+	(wire
+		(pts
 			(xy 74.93 67.31) (xy 36.83 67.31)
 		)
 		(stroke
@@ -1622,7 +1644,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 77.47) (xy 224.79 74.93)
+			(xy 215.9 77.47) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1654,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 77.47) (xy 260.35 74.93)
+			(xy 270.51 77.47) (xy 270.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f9b987-92ba-4be3-9554-a4ba285383de")
+	)
+	(wire
+		(pts
+			(xy 271.78 77.47) (xy 271.78 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1794,27 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 77.47) (xy 224.79 77.47)
+			(xy 270.51 90.17) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2fee80-8a55-4634-b3a5-ba1ec924be4e")
+	)
+	(wire
+		(pts
+			(xy 218.44 90.17) (xy 218.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ded620f-dc77-4dfa-b5df-0e15ee09ccac")
+	)
+	(wire
+		(pts
+			(xy 227.33 77.47) (xy 218.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 77.47) (xy 260.35 77.47)
+			(xy 255.27 77.47) (xy 270.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1819,6 +1871,16 @@
 			(type default)
 		)
 		(uuid "992a42da-d3ec-45f2-bcd4-61c0671923aa")
+	)
+	(wire
+		(pts
+			(xy 270.51 77.47) (xy 271.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df19ee9-be67-4a1b-95f5-3ab37e111d3c")
 	)
 	(wire
 		(pts
@@ -1942,6 +2004,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 77.47) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0817bb4-6c6a-4a31-811b-0008df547c16")
+	)
+	(wire
+		(pts
 			(xy 157.48 69.85) (xy 167.386 69.85)
 		)
 		(stroke
@@ -2049,6 +2121,72 @@
 			(type default)
 		)
 		(uuid "fc016100-91ee-4a72-86c9-b9109efd0522")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd1eab8-0388-46ce-a683-7d0433ca7ae0")
+		(property "Reference" "#PWR081"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ac64e55-fb4f-4d94-b8b9-8c899b14986c")
+		)
+		(instances
+			(project ""
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2442,7 +2580,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 260.35 74.93 0)
+		(at 271.78 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2451,7 +2589,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b8d5b17-6987-4cb5-96f1-829973f28cc8")
 		(property "Reference" "#PWR062"
-			(at 260.35 78.74 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2460,7 +2598,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 260.35 69.85 0)
+			(at 271.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 74.93 0)
+			(at 271.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 74.93 0)
+			(at 271.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 260.35 74.93 0)
+			(at 271.78 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2728,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "https://www.mouser.pl/ProductDetail/Sumida/CDRH5D28RNP-8R0NC?qs=yEEOfDmvQDWFrnTCspV9cw%3D%3D"
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Sumida/CDRH5D28RNP-8R0NC?qs=yEEOfDmvQDWFrnTCspV9cw%3D%3D"
 			(at 127.762 85.852 0)
 			(effects
 				(font
@@ -2742,6 +2880,76 @@
 			(project "BLDC_Test"
 				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 218.44 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "444675fb-21bc-4474-a4f0-0fad6c6966ec")
+		(property "Reference" "C309"
+			(at 222.25 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 222.25 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 219.4052 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ce36e0f-15f2-4eee-bc78-fb4a2ff47237")
+		)
+		(pin "1"
+			(uuid "6c292568-9ddc-4d26-918f-77e50b052b31")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -3078,6 +3286,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Texas-Instruments/TPS73633DBVR?qs=6zVL%252ByCp0mrGq%2FL4KaY0Yw%3D%3D"
+			(at 234.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3502,6 +3719,76 @@
 			(project "BLDC_Test"
 				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "988d3e1d-27a7-4a6f-b9f4-2628089cfe82")
+		(property "Reference" "C310"
+			(at 274.32 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 274.32 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 271.4752 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc57580-151b-4ab0-a412-7873d9dc2707")
+		)
+		(pin "2"
+			(uuid "e414fa05-c54e-4cc1-ab6a-99d661f4a50c")
+		)
+		(instances
+			(project ""
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -3963,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK1URL" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LMR33630BDDA?qs=r5DSvlrkXmJSaC%2FkFkJm9Q%3D%3D"
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Texas-Instruments/LMR33630BDDA?qs=r5DSvlrkXmJSaC%2FkFkJm9Q%3D%3D"
 			(at 74.422 95.25 0)
 			(effects
 				(font
@@ -4076,6 +4363,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84fecb4-e33f-4c9f-8fdc-de7517df05ae")
+		(property "Reference" "#PWR080"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc45801-3bf8-4b43-b30c-cf2ec221e7ff")
+		)
+		(instances
+			(project "BLDC_Test"
+				(path "/f950ba28-1c1b-47be-959c-50e9867eb15a/5e646745-c812-409a-91bc-9e0e76d79877"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 157.48 91.44 0)
 		(unit 1)
@@ -4166,7 +4519,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 224.79 74.93 0)
+		(at 215.9 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4175,7 +4528,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4612ea4-1ae6-45c0-8ab4-b4c2e93e18cc")
 		(property "Reference" "#PWR03"
-			(at 224.79 78.74 0)
+			(at 215.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4537,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 224.79 69.85 0)
+			(at 215.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 74.93 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +4554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 74.93 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4563,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 224.79 74.93 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

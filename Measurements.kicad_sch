@@ -2745,13 +2745,12 @@
 				(hide yes)
 			)
 		)
-		(property "COMPONENTLINK3URL" "https://www.mouser.pl/ProductDetail/onsemi/SS25FA?qs=R26iFe%2FkX%2FL1fF1k08x8zQ%3D%3D"
-			(at 70.612 134.874 0)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/onsemi/SS25FA?qs=R26iFe%2FkX%2FL1fF1k08x8zQ%3D%3D"
+			(at 71.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
@@ -3665,6 +3664,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "https://www.mouser.pl/ProductDetail/Vishay-BC-Components/NTCLE100E3224JB0?qs=8jQ01qPFmpnlWqF655qucg%3D%3D"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
