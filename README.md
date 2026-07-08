@@ -46,7 +46,7 @@ Three-phase MOSFET inverter driven by the **DRV8320S** gate driver (built-in pro
 
 ## Project Status
 
-Hardware only (rev2). Firmware is maintained in a separate repository (see `esc_fw_rev2`).
+Hardware only (rev2). Firmware is maintained in a separate repository (see [`esc_fw_rev2`](https://github.com/V2gkr/esc_fw_rev2/tree/main)).
 
 ## TODO
 - [ ] Export schematics to PDF for quick viewing without KiCad
