@@ -2366,9 +2366,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C3216X7R1H106K160AC"
+		(property "Value" "10u"
 			(at 57.404 88.392 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4264,9 +4263,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "KAF31BR71H224KT"
+		(property "Value" "10u"
 			(at 70.104 88.392 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
