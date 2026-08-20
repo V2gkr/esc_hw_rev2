@@ -5,9 +5,119 @@
 	(uuid "f950ba28-1c1b-47be-959c-50e9867eb15a")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329fcc7b-c224-4ba3-84da-c20ac4050192")
+	)
+	(bus
+		(pts
+			(xy 137.16 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adc1599-62c4-433a-a961-26eb95326b64")
+	)
+	(bus
+		(pts
+			(xy 190.5 74.93) (xy 198.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7e7f9f-d468-42bc-88fd-1b84444d17fa")
+	)
+	(wire
+		(pts
+			(xy 137.16 55.88) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f699df-53af-41d2-b71a-0d3a116e79a5")
+	)
+	(bus
+		(pts
+			(xy 137.16 63.5) (xy 149.86 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef11d9f-9fdf-4aa4-b0ca-4eb247fd6fd3")
+	)
+	(bus
+		(pts
+			(xy 102.87 60.96) (xy 111.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc427ee-abd2-4940-94bd-50a8615bf526")
+	)
+	(bus
+		(pts
+			(xy 137.16 74.93) (xy 149.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f86dbf6-c62d-47c2-8020-eb835bf474bc")
+	)
+	(bus
+		(pts
+			(xy 137.16 81.28) (xy 198.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985ff94a-4552-4841-bb16-4fdf4128779b")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 198.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7915dd-b8d2-4f00-8ecf-86b071e08a29")
+	)
+	(bus
+		(pts
+			(xy 137.16 46.99) (xy 198.12 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeab9ec3-bad0-41b4-b270-37535dec6544")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 149.86 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6254c05-f5e6-48a0-a61d-1f4d58b15d30")
+	)
 	(sheet
-		(at 129.54 31.75)
-		(size 12.7 3.81)
+		(at 111.76 41.91)
+		(size 25.4 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +132,7 @@
 		)
 		(uuid "46fe65df-d187-4950-a8a8-ae107b3ce6b8")
 		(property "Sheetname" "mcu"
-			(at 129.54 31.0384 0)
+			(at 111.76 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +143,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 129.54 36.1446 0)
+			(at 111.76 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +151,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HALL{A,B,C}" input
+			(at 137.16 63.5 0)
+			(uuid "b741c5d0-a0a8-4018-8fb3-b70a9572d820")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN{TXCAN,RXCAN}" bidirectional
+			(at 111.76 60.96 180)
+			(uuid "af002d27-bc31-44e1-a824-2cf14eeda183")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TIM{HA,HB,HC,LA,LB,LC}" output
+			(at 137.16 46.99 0)
+			(uuid "92566dc4-e879-4985-801b-1c088b919dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 137.16 68.58 0)
+			(uuid "b77f611c-297d-40dd-90fb-f68a4218ae1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENABLE" output
+			(at 137.16 53.34 0)
+			(uuid "79a3af14-838a-4eb4-8c7c-3e0c35042125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAULT" input
+			(at 137.16 55.88 0)
+			(uuid "4a621807-fa18-470c-9be6-6ee022a6a4a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MEAS{A_N,B_N,C_N}" input
+			(at 137.16 81.28 0)
+			(uuid "15ba0d03-92e9-4a38-a504-381c6a80844b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MEAS{A_P,B_P,C_P}" input
+			(at 137.16 74.93 0)
+			(uuid "b962bfc1-793d-4323-806d-974b722d7ded")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI{MOSI,MISO,CLK,CS}" bidirectional
+			(at 137.16 50.8 0)
+			(uuid "800deb91-ebf6-4749-85d6-0eafbe2fc8db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TEMP" input
+			(at 137.16 71.12 0)
+			(uuid "b17f0ce2-1196-450c-bec7-ba93ae4c656e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -52,8 +262,8 @@
 		)
 	)
 	(sheet
-		(at 231.14 31.75)
-		(size 12.7 3.81)
+		(at 78.74 45.72)
+		(size 24.13 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +278,7 @@
 		)
 		(uuid "5e646745-c812-409a-91bc-9e0e76d79877")
 		(property "Sheetname" "power"
-			(at 231.14 31.0384 0)
+			(at 78.74 45.0084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +289,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 231.14 36.1446 0)
+			(at 78.74 51.3846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +308,8 @@
 		)
 	)
 	(sheet
-		(at 78.74 31.75)
-		(size 12.7 3.81)
+		(at 198.12 41.91)
+		(size 27.94 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +324,7 @@
 		)
 		(uuid "aa3107a2-b9da-4c01-a929-27d099503571")
 		(property "Sheetname" "inverter"
-			(at 78.74 31.0384 0)
+			(at 198.12 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +335,7 @@
 			)
 		)
 		(property "Sheetfile" "Inverter.kicad_sch"
-			(at 78.74 36.1446 0)
+			(at 198.12 86.9446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +343,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "TIM{HA,HB,HC,LA,LB,LC}" input
+			(at 198.12 46.99 180)
+			(uuid "ee98d0fc-cdb7-4a3c-bd70-f7d2971929fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENABLE" input
+			(at 198.12 53.34 180)
+			(uuid "b35ed37e-a0a5-4861-aacb-c30d5dabfbfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT" output
+			(at 198.12 55.88 180)
+			(uuid "48434775-ce46-4d4a-be19-443fd2c9347b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEAS{A_N,B_N,C_N}" output
+			(at 198.12 81.28 180)
+			(uuid "51774e06-103f-4ac2-9b86-7680ed3df80d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI{MOSI,MISO,CLK,CS}" bidirectional
+			(at 198.12 50.8 180)
+			(uuid "c843aa96-8874-423b-a9c2-60f6b022748a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSHUNT{A+,B+,C+}" output
+			(at 198.12 74.93 180)
+			(uuid "4078c507-e0f1-4716-ba5f-d34970166e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -144,8 +414,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 31.75)
-		(size 12.7 3.81)
+		(at 149.86 60.96)
+		(size 40.64 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -160,7 +430,7 @@
 		)
 		(uuid "cec6183a-fef0-4707-aa96-10e4ec3004df")
 		(property "Sheetname" "measurements"
-			(at 180.34 31.0384 0)
+			(at 149.86 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +441,7 @@
 			)
 		)
 		(property "Sheetfile" "Measurements.kicad_sch"
-			(at 180.34 36.1446 0)
+			(at 149.86 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,6 +449,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HALL{A,B,C}" output
+			(at 149.86 63.5 180)
+			(uuid "a18167b9-f288-4591-8d44-96e45d8848e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" output
+			(at 149.86 68.58 180)
+			(uuid "2a91e39c-198a-424c-853d-1137ff4f1a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MEAS{A_P,B_P,C_P}" output
+			(at 149.86 74.93 180)
+			(uuid "9690e71a-0afb-4f5e-9dbb-87789d31ce6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TEMP" output
+			(at 149.86 71.12 180)
+			(uuid "a5a6e81b-8534-4813-9037-60dfa48f50c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSHUNT{A+,B+,C+}" input
+			(at 190.5 74.93 0)
+			(uuid "79e5ba32-eca5-49bf-aa97-91deaeba96c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -190,8 +510,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 31.75)
-		(size 12.7 3.81)
+		(at 78.74 58.42)
+		(size 24.13 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +526,7 @@
 		)
 		(uuid "d4d91f11-dcfe-4ce8-8d6d-fb188a2d27a0")
 		(property "Sheetname" "can"
-			(at 27.94 31.0384 0)
+			(at 78.74 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +537,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 27.94 36.1446 0)
+			(at 78.74 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,6 +545,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN{TXCAN,RXCAN}" bidirectional
+			(at 102.87 60.96 0)
+			(uuid "7b41412e-57f3-4e06-b182-d96f25361115")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
